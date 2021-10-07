@@ -1,0 +1,30 @@
+<script>
+
+function pulaLinha(){
+
+    document.write("<br>");
+    document.write("<br>");
+}
+
+function mostra(frase) {
+
+    document.write(frase);
+    pulaLinha();
+}
+
+function sorteia(n){
+    return Math.round(Math.random() * n);
+}
+
+var nome = prompt("Fala seu nome aí, chará!")
+var numeroPensado = sorteia(10);
+var chute = parseInt(prompt(nome + ", já pensei num número... Qual você acha que é?"));
+
+if(chute == numeroPensado){
+    mostra("Uau, " + nome + "! Você acertou! Eu estava pensando em " + numeroPensado + " mesmo!");
+}
+else{
+    mostra("Parece que você errou! Eu tinha pensado no número " + numeroPensado + ", " + nome + ".");
+}
+
+</script>
