@@ -10,10 +10,11 @@ function pulaLinha(){
 
 function mostra(frase) {
 
+    pulaLinha()
     document.write(frase);
     pulaLinha();
 }
-
+    
 function calculaImc(peso, altura){
 
     return peso / (altura * altura);
@@ -29,4 +30,19 @@ var imc = calculaImc(pesoInformado, alturaInformada);
 
 document.write(nome + ", o seu IMC é " + imc);
 
+<!-- Ele também diz se a pessoa está com um bom IMC ou não -->
+
+if (imc < 18.5){
+    mostra("Você está abaixo do peso. Se cuide!")
+}
+else if (imc >= 18.5 && imc < 24.9){
+    mostra("Você está com o peso normal.")
+}
+else if (imc >= 24.9 && imc < 30){
+    mostra("Você está com sobrepeso.")
+}
+else{
+    mostra("Você está obeso. Se cuide!")
+}
+    
 </script>
