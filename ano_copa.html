@@ -1,0 +1,29 @@
+<script>
+
+function pulaLinha(){
+
+    document.write("<br>");
+
+}
+
+function mostra(frase) {
+
+    document.write(frase);
+    pulaLinha();
+}
+
+// esse sistema faz com que sejam exibidos todos os anos que tiveram copa do mundo
+
+var limite = parseInt(prompt("Entre com a data limite"));
+
+var anoCopa = 1930;
+ 
+mostra("Teve copa em:");
+
+while(anoCopa <= limite){
+
+    mostra(anoCopa);
+    anoCopa = anoCopa + 4;
+}
+
+</script>
