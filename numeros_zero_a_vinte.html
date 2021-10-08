@@ -1,0 +1,29 @@
+<script>
+
+    function pulaLinha(){
+    
+        document.write("<br>");
+    
+    }
+      
+    function mostra(frase) {
+    
+        document.write(frase);
+        pulaLinha();
+    }
+    
+    // Enunciado do desafio: Imprima em ordem decrescente todos os
+    // números entre 20 e 0, incluindo os limites! No final, escreva a
+    // palavra "FIM".
+    
+    var numero = 20;
+    
+    while (numero >= 0){
+    
+    mostra(numero);
+    numero = numero - 1;
+    }
+
+    mostra("FIM")
+      
+    </script>
