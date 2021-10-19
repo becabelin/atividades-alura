@@ -1,6 +1,5 @@
 <script>
-
-<!-- Criei funções para tornar o código mais fácil -->
+// criei funções para tornar o código mais fácil
     
 function pulaLinha(){
 
@@ -20,7 +19,7 @@ function calculaImc(peso, altura){
     return peso / (altura * altura);
 }
 
-<!-- Esse programa permite que o usuário coloque o seu nome e consiga calcular seu IMC -->
+// esse programa permite que o usuário coloque o seu nome e consiga calcular seu IMC
     
 var nome = prompt("Informe o seu nome")
 var pesoInformado = prompt(nome + ", informe seu peso")
@@ -30,7 +29,7 @@ var imc = calculaImc(pesoInformado, alturaInformada);
 
 document.write(nome + ", o seu IMC é " + imc);
 
-<!-- Ele também diz se a pessoa está com um bom IMC ou não -->
+// ele também diz se a pessoa está com um bom IMC ou não
 
 if (imc < 18.5){
     mostra("Você está abaixo do peso. Se cuide!")
