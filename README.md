@@ -28,6 +28,7 @@ Criei esse repositório para guardar todas as atividades que eu fiz durante os c
 - <a href="https://github.com/becabelin/atividades-alura/blob/main/bandeira_do_brasil.html">bandeira_do_brasil</a>
 - <a href="https://github.com/becabelin/atividades-alura/blob/main/flor.html">flor</a>
 - <a href="https://github.com/becabelin/atividades-alura/blob/main/programa_2.html">programa_2</a>
+- <a href=https://github.com/becabelin/atividades-alura/blob/main/pintar_tela.html>pintar_tela</a>
 
 <br><br>
 é isso, obrigada!
